@@ -1,20 +1,52 @@
 .bg-font {
     color: #ffffff;
+    font-size: 1.2rem;
 }
 
 .bg-menu {
     background: #222b4d;
+    font-size: 1.2rem;
 }
 
 .bg-formulario {
     background: #646464;
 }
 
+.bg-footer {
+    background: #646464;
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 1s all;
+}
+
+.link:hover {
+    color: #222b4d;
+}
+
 .botao {
     background: #5c6589;
     color: #ffffff;
 }
+/* Estilo do endereço */
+#fonte {
+    font-size: 13px;
+}
+/* Cores para as redes sociais */
+#twitter:hover {
+    color: #00ACEE;
+}
 
+#facebook:hover {
+    color: #3b5998;
+}
+
+#instagram:hover {
+    color: #ffa500;
+}
+/* ============================ */
 ul {
     list-style-type: none;
     padding: 0;
