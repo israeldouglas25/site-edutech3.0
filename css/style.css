@@ -1,8 +1,29 @@
 .bg-font {
-    color: white;
+    color: #ffffff;
+}
+
+.bg-menu {
+    background: #222b4d;
+}
+
+.bg-formulario {
+    background: #646464;
+}
+
+.botao {
+    background: #5c6589;
+    color: #ffffff;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
 }
+
+/* Paleta de cores
+#222b4d
+#3a3a3a
+#5c6589
+#646464
+#ffffff
+*/
