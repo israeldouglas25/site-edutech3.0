@@ -83,25 +83,37 @@
     </header>
     <main>
         <div class="container">
-            <h1>Divulgue aqui seu método</h1>
+            <h1 class="mt-5">Divulgue aqui seu método</h1>
             <p>O objetivo da Edutech 3.0 é divulgar métodos e formas para o educador
                 aperfeiçoar e inovar nas aulas. Apresentando modelos existentes e
                 aplicados por profissionais em sala de aula ou através de artigos e
                 video aulas em plataformas de divulgação.
             </p>
-            <form>
-                <div class="col-md mb-3">
-                    <label for="emailContato" class="form-label mt-4">E-mail*</label>
-                    <input type="text" class="form-control" id="emailContato" required>
-                </div>
-                <div class="col-md mb-3">
-                    <label for="nomeContato" class="form-label">Nome e sobrenome*</label>
+            <form class="row g-2 mt-5">
+                <div class="col-md-6">
+                    <label for="nomeContato" class="form-label">Nome completo*</label>
                     <input type="text" class="form-control" id="nomeContato" required>
                 </div>
-                <div class="col-md mb-3">
+                <div class="col-md-6">
+                    <label for="emailContato" class="form-label">E-mail*</label>
+                    <input type="email" class="form-control" id="emailContato" required>
+                </div>
+                <div class="col-md">
+                    <label for="nomeContato" class="form-label">CPF*</label>
+                    <input type="text" class="form-control" id="nomeContato" required>
+                </div>
+                <div class="col-md">
+                    <label for="telefoneContato" class="form-label">Telefone*</label>
+                    <input type="text" class="form-control" id="telefoneContato" required>
+                </div>
+                <div class="col-md">
+                    <label for="cidadeContato" class="form-label">Cidade*</label>
+                    <input type="text" class="form-control" id="cidadeContato" required>
+                </div>
+                <div class="col-md-2">
                     <label for="selecaoEstado" class="form-label">Estado*</label>
                     <select class="form-select" name="" id="selecaoEstado" required>
-                        <option selected>Selecione</option>
+                        <option selected disabled value="">Selecione</option>
                         <option value="">AC</option>
                         <option value="">AL</option>
                         <option value="">AM</option>
@@ -131,33 +143,84 @@
                         <option value="">TO</option>
                     </select>
                 </div>
-                <div class="col-md mb-3">
-                    <label for="cidadeContato" class="form-label">Cidade*</label>
-                    <input type="text" class="form-control" id="cidadeContato" required>
+                <div class="col-md-12">
+                    <label for="textoContato" class="form-label">Resumo do currículo</label>
+                    <textarea class="form-control" name="" id="textoContato" rows="5"
+                        placeholder="Faça um resumo sobre sua formação acadêmica e experiência Profissional"></textarea>
                 </div>
-                <div class="col-md mb-3">
-                    <label for="selecaoAssunto" class="form-label">Assunto*</label>
-                    <select class="form-select" name="" id="selecaoAssunto" required>
-                        <option selected>Selecione</option>
-                        <option value="">Dúvidas</option>
-                        <option value="">Parcerias</option>
-                        <option value="">Sugestões</option>
-                        <option value="">Outros</option>
-                    </select>
+
+                <div class="col-md-6">
+                    <label for="instituicaoContato" class="form-label">Instituição de ensino*</label>
+                    <input type="text" class="form-control" id="instituicaoContato" required>
                 </div>
-                <div class="col-md mb-2">
-                    <label for="textoContato" class="form-label">Mensagem</label>
-                    <textarea class="form-control" name="" id="textoContato" rows="10"></textarea>
+                <div class="col-md-6">
+                    <label for="disciplinaContato" class="form-label">Disciplina*</label>
+                    <input type="text" class="form-control" id="disciplinaContato" required>
                 </div>
-                <div class="col-auto mb-2">
+                <!-- inicio do radios -->
+                <form class="row g-2">
+                    <div class="col-md-12">
+                        <label class="col-md-12 form-label">Rede*</label>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radioRede1"
+                                value="radioRede1" required>
+                            <label class="form-check-label" for="radioRede1">Publica</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radioRede2"
+                                value="radioRede1" required>
+                            <label class="form-check-label" for="radioRede2">Privada</label>
+                        </div>
+                    </div>
+                </form>
+                <form class="row g-2">
+                    <div class="col-md-12">
+                        <label class="col-md-12 form-label mt-2">Tipo de conteúdo*</label>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                value="option1" required>
+                            <label class="form-check-label" for="inlineRadio1">Ensino Infantil</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                value="option2" required>
+                            <label class="form-check-label" for="inlineRadio2">Ensino Fundamental I</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                                value="option3" required>
+                            <label class="form-check-label" for="inlineRadio3">Ensino Fundamental II</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4"
+                                value="option4" required>
+                            <label class="form-check-label" for="inlineRadio4">Ensino Médio</label>
+                        </div>
+                    </div>
+                </form>
+                <!-- final do radios -->
+                <div class="input-group mt-2">
+                    <label for="formFile" class="col-md-12 form-label">Salve as imagens, videos e outros aquivos
+                        compactados em um só arquivo do tipo (.zip, .rar, .tar, .z, .gz, .taz e .tgz) e faça o
+                        upload.</label>
+                    <label class="input-group-text" for="inputGroupFile01">Upload</label>
+                    <input type="file" class="form-control" id="inputGroupFile01" required>
+                </div>
+                <div class="col-md-12 mt-2">
+                    <label for="textoContato" class="form-label">Descrição do ensino*</label>
+                    <textarea class="form-control" name="" id="textoContato" rows="7"
+                        placeholder="Descreva aqui quais os recursos que foram utilizados para o desenvolvimento deste metodo no decorrer das aulas"
+                        required></textarea>
+                </div>
+                <div class="col-md mt-2">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2">
                         <label class="form-check-label" for="invalidCheck2">
                             Aceito receber notificações do Edutech3.0
                         </label>
                     </div>
                 </div>
-                <div class="col-auto mb-3">
+                <div class="col-md mb-5 d-flex justify-content-end">
                     <button class="btn botao" type="submit">Enviar</button>
                 </div>
             </form>
