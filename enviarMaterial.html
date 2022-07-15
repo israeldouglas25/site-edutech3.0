@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar Material</title>
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- campo para logar na plataforma -->
+        <form class="row g-3 justify-content-end bg-formulario">
+            <div class="col-md-2">
+                <input type="email" class="form-control" id="inputEmail2" placeholder="E-mail">
+            </div>
+            <div class="col-md-2">
+                <input type="password" class="form-control" id="inputPassword2" placeholder="Senha">
+            </div>
+            <div class="col-auto me-2">
+                <button type="submit" class="btn botao">Entrar</button>
+            </div>
+        </form>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-menu m-0">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img class="" src="./img/Ilustração_Sem_Título1.png"
+                        alt="Logomarca"></a> <!-- falta incluir a logomarca -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <section class="collapse navbar-collapse justify-content-around" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-5">
+                            <a class="nav-link" aria-current="page" href="./index.html">Notícias</a>
+                        </li>
+                        <li class="nav-item dropdown mx-5">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Conteúdo
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Infantil</a></li>
+                                <li><a class="dropdown-item" href="#">Fundamental I</a></li>
+                                <li><a class="dropdown-item" href="#">Fundamental II</a></li>
+                                <li><a class="dropdown-item" href="#">Médio</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mx-5">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Edutech3.0
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Sobre nós</a></li>
+                                <li><a class="dropdown-item" href="#">Instituições parceiras</a></li>
+                                <li><a class="dropdown-item" href="#">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mx-5">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Fale conosco
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="./contato.html">Contato</a></li>
+                                <li><a class="dropdown-item" href="#">Enviar material</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="mt-5">Divulgue aqui seu método</h1>
+            <p>O objetivo da Edutech 3.0 é divulgar métodos e formas para o educador
+                aperfeiçoar e inovar nas aulas. Apresentando modelos existentes e
+                aplicados por profissionais em sala de aula ou através de artigos e
+                video aulas em plataformas de divulgação.
+            </p>
+            <form class="row g-2 mt-5">
+                <div class="col-md-6">
+                    <label for="nomeContato" class="form-label">Nome completo*</label>
+                    <input type="text" class="form-control" id="nomeContato" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="emailContato" class="form-label">E-mail*</label>
+                    <input type="email" class="form-control" id="emailContato" required>
+                </div>
+                <div class="col-md">
+                    <label for="nomeContato" class="form-label">CPF*</label>
+                    <input type="text" class="form-control" id="nomeContato" required>
+                </div>
+                <div class="col-md">
+                    <label for="telefoneContato" class="form-label">Telefone*</label>
+                    <input type="text" class="form-control" id="telefoneContato" required>
+                </div>
+                <div class="col-md">
+                    <label for="cidadeContato" class="form-label">Cidade*</label>
+                    <input type="text" class="form-control" id="cidadeContato" required>
+                </div>
+                <div class="col-md-2">
+                    <label for="selecaoEstado" class="form-label">Estado*</label>
+                    <select class="form-select" name="" id="selecaoEstado" required>
+                        <option selected disabled value="">Selecione</option>
+                        <option value="">AC</option>
+                        <option value="">AL</option>
+                        <option value="">AM</option>
+                        <option value="">AP</option>
+                        <option value="">BA</option>
+                        <option value="">CE</option>
+                        <option value="">DF</option>
+                        <option value="">ES</option>
+                        <option value="">GO</option>
+                        <option value="">MA</option>
+                        <option value="">MG</option>
+                        <option value="">MS</option>
+                        <option value="">MT</option>
+                        <option value="">PA</option>
+                        <option value="">PB</option>
+                        <option value="">PE</option>
+                        <option value="">PI</option>
+                        <option value="">PR</option>
+                        <option value="">RJ</option>
+                        <option value="">RN</option>
+                        <option value="">RS</option>
+                        <option value="">RO</option>
+                        <option value="">RR</option>
+                        <option value="">SC</option>
+                        <option value="">SP</option>
+                        <option value="">SE</option>
+                        <option value="">TO</option>
+                    </select>
+                </div>
+                <div class="col-md-12">
+                    <label for="textoContato" class="form-label">Resumo do currículo</label>
+                    <textarea class="form-control" name="" id="textoContato" rows="5"
+                        placeholder="Faça um resumo sobre sua formação acadêmica e experiência Profissional"></textarea>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="instituicaoContato" class="form-label">Instituição de ensino*</label>
+                    <input type="text" class="form-control" id="instituicaoContato" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="disciplinaContato" class="form-label">Disciplina*</label>
+                    <input type="text" class="form-control" id="disciplinaContato" required>
+                </div>
+                <!-- inicio do radios -->
+                <form class="row g-2">
+                    <div class="col-md-12">
+                        <label class="col-md-12 form-label">Rede*</label>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radioRede1"
+                                value="radioRede1" required>
+                            <label class="form-check-label" for="radioRede1">Publica</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radioRede2"
+                                value="radioRede1" required>
+                            <label class="form-check-label" for="radioRede2">Privada</label>
+                        </div>
+                    </div>
+                </form>
+                <form class="row g-2">
+                    <div class="col-md-12">
+                        <label class="col-md-12 form-label mt-2">Tipo de conteúdo*</label>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                value="option1" required>
+                            <label class="form-check-label" for="inlineRadio1">Ensino Infantil</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                value="option2" required>
+                            <label class="form-check-label" for="inlineRadio2">Ensino Fundamental I</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                                value="option3" required>
+                            <label class="form-check-label" for="inlineRadio3">Ensino Fundamental II</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4"
+                                value="option4" required>
+                            <label class="form-check-label" for="inlineRadio4">Ensino Médio</label>
+                        </div>
+                    </div>
+                </form>
+                <!-- final do radios -->
+                <div class="input-group mt-2">
+                    <label for="formFile" class="col-md-12 form-label">Salve as imagens, videos e outros aquivos
+                        compactados em um só arquivo do tipo (.zip, .rar, .tar, .z, .gz, .taz e .tgz) e faça o
+                        upload.</label>
+                    <label class="input-group-text" for="inputGroupFile01">Upload</label>
+                    <input type="file" class="form-control" id="inputGroupFile01" required>
+                </div>
+                <div class="col-md-12 mt-2">
+                    <label for="textoContato" class="form-label">Descrição do ensino*</label>
+                    <textarea class="form-control" name="" id="textoContato" rows="7"
+                        placeholder="Descreva aqui quais os recursos que foram utilizados para o desenvolvimento deste metodo no decorrer das aulas"
+                        required></textarea>
+                </div>
+                <div class="col-md mt-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2">
+                        <label class="form-check-label" for="invalidCheck2">
+                            Aceito receber notificações do Edutech3.0
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md mb-5 d-flex justify-content-end">
+                    <button class="btn botao" type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="bg-footer bg-font ">
+        <div class="container">
+            <section class="row pt-4">
+                <article class="col-sm">
+                    <a class="navbar-brand" href="#"><img src="./img/Ilustração_Sem_Título1.png" alt="Logomarca"></a>
+                </article>
+                <article class="col-sm">
+                    <ul>
+                        <li><a class="link" href="#">Notícias</a></li>
+                        <li><a class="link" href="#">Infantil</a></li>
+                        <li><a class="link" href="#">Fundamental I</a></li>
+                        <li><a class="link" href="#">Fundamental II</a></li>
+                        <li><a class="link" href="#">Médio</a></li>
+                    </ul>
+                </article>
+                <article class="col-sm">
+                    <ul>
+                        <li><a class="link" href="#">Sobre nós</a></li>
+                        <li><a class="link" href="#">Instituições Parceiras</a></li>
+                        <li><a class="link" href="#">Blog</a></li>
+                        <li><a class="link" href="#">Contatos</a></li>
+                        <a class="link mx-2" href="#"><i class="ri-twitter-fill" id="twitter"></i></a>
+                        <a class="link mx-2" href="#"><i class="ri-facebook-circle-fill" id="facebook"></i></i></a>
+                        <a class="link mx-2" href="#"><i class="ri-instagram-fill" id="instagram"></i></a>
+                    </ul>
+                </article>
+            </section>
+            <div class="d-flex justify-content-center">
+                <p id="fonte">Rua Manoel Marques Dias, 89 - Janga - Paulista 53437-280 &copy; Edutech 3.0</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

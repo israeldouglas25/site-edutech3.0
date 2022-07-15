@@ -1,8 +1,61 @@
 .bg-font {
-    color: white;
+    color: #ffffff;
+    font-size: 1.2rem;
 }
 
+.bg-menu {
+    background: #222b4d;
+    font-size: 1.2rem;
+}
+
+.bg-formulario {
+    background: #646464;
+}
+
+.bg-footer {
+    background: #646464;
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 1s all;
+}
+
+.link:hover {
+    color: #222b4d;
+}
+
+.botao {
+    background: #5c6589;
+    color: #ffffff;
+}
+/* Estilo do endereço */
+#fonte {
+    font-size: 13px;
+}
+/* Cores para as redes sociais */
+#twitter:hover {
+    color: #00ACEE;
+}
+
+#facebook:hover {
+    color: #3b5998;
+}
+
+#instagram:hover {
+    color: #fb5709;
+}
+/* ============================ */
 ul {
     list-style-type: none;
     padding: 0;
 }
+
+/* Paleta de cores
+#222b4d
+#3a3a3a
+#5c6589
+#646464
+#ffffff
+*/
