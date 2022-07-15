@@ -21,6 +21,135 @@
 </head>
 
 <body>
+    <header>
+        <!-- campo para logar na plataforma -->
+        <form class="row g-3 justify-content-end bg-formulario">
+            <div class="col-md-2">
+                <input type="email" class="form-control" id="inputEmail2" placeholder="E-mail">
+            </div>
+            <div class="col-md-2">
+                <input type="password" class="form-control" id="inputPassword2" placeholder="Senha">
+            </div>
+            <div class="col-auto me-2">
+                <button type="submit" class="btn botao">Entrar</button>
+            </div>
+        </form>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-menu m-0">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="" src="./img/Ilustração_Sem_Título1.png"
+                        alt="Logomarca"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <section class="collapse navbar-collapse justify-content-around" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-5">
+                            <a class="nav-link active" aria-current="page" href="#">Notícias</a>
+                        </li>
+                        <li class="nav-item dropdown mx-5">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Conteúdo
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Infantil</a></li>
+                                <li><a class="dropdown-item" href="#">Fundamental I</a></li>
+                                <li><a class="dropdown-item" href="#">Fundamental II</a></li>
+                                <li><a class="dropdown-item" href="#">Médio</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mx-5">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Edutech3.0
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Sobre nós</a></li>
+                                <li><a class="dropdown-item" href="#">Instituições parceiras</a></li>
+                                <li><a class="dropdown-item" href="#">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mx-5">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Fale conosco
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="./contato.html">Contato</a></li>
+                                <li><a class="dropdown-item" href="./enviarMaterial.html">Enviar material</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </nav>
+    </header>
+    <main class="bg-light">
+        <div class="container">
+            <h2>Detalhes</h2>
+            <hr>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, culpa harum amet neque delectus
+            inventore
+            officiis, rerum impedit quis qui excepturi, architecto dicta magnam minima explicabo accusamus nostrum
+            obcaecati
+            repellendus.
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ut fuga ipsam quasi commodi voluptate
+            maxime
+            possimus nam atque maiores facilis quo repellendus error veritatis iusto, obcaecati laborum. Illo,
+            consectetur!
+            <h2>Notícias</h2>
+            <hr>
+            <!-- card de apresentação -->
+            <section class="row row-cols-1 row-cols-md-3 g-4">
+                <article class="col">
+                    <div class="card h-100">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/b8ApPwozMyE"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="col">
+                    <div class="card h-100">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/TR19_LCt7JY"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="col">
+                    <div class="card h-100">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/yvVhIMKj6OE"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content.</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
     <footer class="bg-footer bg-font ">
         <div class="container">
             <section class="row pt-4">
