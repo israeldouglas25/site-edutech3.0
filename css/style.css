@@ -37,14 +37,17 @@
 /* Cores para as redes sociais */
 #twitter:hover {
     color: #00ACEE;
+    transition: 1s all;
 }
 
 #facebook:hover {
     color: #3b5998;
+    transition: 1s all;
 }
 
 #instagram:hover {
     color: #fb5709;
+    transition: 1s all;
 }
 /* ============================ */
 ul {
