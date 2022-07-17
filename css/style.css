@@ -30,6 +30,11 @@
     background: #5c6589;
     color: #ffffff;
 }
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    color: #222b4d;
+}
 /* Estilo do endereço */
 #fonte {
     font-size: 13px;
