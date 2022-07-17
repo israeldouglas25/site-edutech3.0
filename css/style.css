@@ -30,6 +30,11 @@
     background: #5c6589;
     color: #ffffff;
 }
+
+.border-color:hover {
+    border: 1.5px solid #222b4d;
+}
+
 .fonte-titulo {
     font-family: 'Pacifico', cursive;
     font-size: 2.5rem;
