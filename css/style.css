@@ -33,6 +33,7 @@
     font-family: 'Pacifico', cursive;
     font-size: 2.5rem;
     color: #222b4d;
+    text-shadow: #5c6589 0.1rem 0.2rem 0.1rem;
 }
 /* Estilo do endereço */
 #fonte {
