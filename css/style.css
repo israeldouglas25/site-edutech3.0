@@ -1,15 +1,6 @@
-.bg-font {
-    color: #ffffff;
-    font-size: 1.2rem;
-}
-
 .bg-menu {
     background: #222b4d;
-    font-size: 1.2rem;
-}
-
-.bg-formulario {
-    background: #646464;
+    font-size: 1.3rem;
 }
 
 .bg-footer {
@@ -17,9 +8,12 @@
 }
 
 .link {
+    font-size: 1.2rem;
     text-decoration: none;
     color: #ffffff;
     transition: 1s all;
+    list-style-type: none;
+    padding: 0;
 }
 
 .link:hover {
@@ -43,6 +37,7 @@
 /* Estilo do endereço */
 #fonte {
     font-size: 13px;
+    color: #ffffff;
 }
 /* Cores para as redes sociais */
 #twitter:hover {
@@ -60,10 +55,6 @@
     transition: 1s all;
 }
 /* ============================ */
-ul {
-    list-style-type: none;
-    padding: 0;
-}
 
 /* Paleta de cores
 #222b4d
