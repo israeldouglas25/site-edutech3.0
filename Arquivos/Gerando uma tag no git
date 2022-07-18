@@ -1,0 +1,3 @@
+Gerando uma tag no git
+git tag -a v0.1 -m "Primeira versão (BETA) da aplicação Edutech3.0"
+
