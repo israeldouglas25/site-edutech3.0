@@ -144,6 +144,19 @@ a {
     color: #fb5709;
     transition: 1s all;
 }
+
+@media screen and (max-width: 764px) {
+
+    .login-conta {
+        margin: 5px;
+    }
+
+    .mt-4 {
+        margin-top: 0px;
+    }
+
+
+}
 /* ============================ */
 
 /* Paleta de cores
