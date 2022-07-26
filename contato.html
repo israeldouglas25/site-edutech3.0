@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contatos</title>
+    <title>Contato</title>
     <link rel="stylesheet" href="./css/reset.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -23,7 +23,7 @@
 <body class="bg-light">
     <header>
         <!-- campo para logar na plataforma -->
-        <form class="row g-3 justify-content-end bg-formulario">
+        <form class="row g-3 justify-content-end bg-footer">
             <div class="col-md-2">
                 <input type="email" class="form-control" id="inputEmail2" placeholder="E-mail">
             </div>
@@ -31,7 +31,7 @@
                 <input type="password" class="form-control" id="inputPassword2" placeholder="Senha">
             </div>
             <div class="col-auto me-2">
-                <button type="submit" class="btn botao">Entrar</button>
+                <button type="submit" class="btn botao me-2">Entrar</button>
                 <button class="btn botao" type="button" data-bs-toggle="modal"
                     data-bs-target="#modal-cadastrar">Cadastrar</button>
             </div>
@@ -40,7 +40,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-menu m-0">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html"><img class="" src="./img/Ilustração_Sem_Título1.png"
-                        alt="Logomarca"></a> <!-- falta incluir a logomarca -->
+                        alt="Logomarca"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -58,8 +58,8 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="./infantil.html">Infantil</a></li>
-                                <li><a class="dropdown-item" href="#">Fundamental I</a></li>
-                                <li><a class="dropdown-item" href="#">Fundamental II</a></li>
+                                <li><a class="dropdown-item" href="./fund_I.html">Fundamental I</a></li>
+                                <li><a class="dropdown-item" href="./fund_II.html">Fundamental II</a></li>
                                 <li><a class="dropdown-item" href="./medio.html">Médio</a></li>
                             </ul>
                         </li>
@@ -69,19 +69,19 @@
                                 Edutech3.0
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Sobre nós</a></li>
+                                <li><a class="dropdown-item" href="index.html">Sobre nós</a></li>
                                 <li><a class="dropdown-item" href="#">Instituições parceiras</a></li>
                                 <li><a class="dropdown-item" href="#">Blog</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown mx-5">
-                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Fale conosco
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="#">Contato</a></li>
-                                <li><a class="dropdown-item" href="./enviarMaterial.html">Enviar material</a></li>
+                                <li><a class="dropdown-item" href="./enviarMaterial.html">Divulgue aqui</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -91,8 +91,8 @@
     </header>
     <main class="bg-light">
         .<div class="container">
-            <h1 class="mt-5">Fale conosco</h1>
-            <p>*Campos obrigatório</p>
+            <h1 class="fonte-titulo mt-5">Fale conosco</h1>
+            <p>*Campo obrigatório</p>
             <form class="row g-3 mt-5">
                 <div class="col-md-4">
                     <label for="nomeContato" class="form-label">Nome*</label>
@@ -179,14 +179,14 @@
         <div class="container">
             <section class="row pt-4">
                 <article class="col-sm">
-                    <a class="navbar-brand" href="#"><img src="./img/Ilustração_Sem_Título1.png" alt="Logomarca"></a>
+                    <a class="navbar-brand" href="#"><img src="./img/img-footer.png" alt="Logomarca"></a>
                 </article>
                 <article class="col-sm">
                     <ul>
                         <li><a class="link" href="./index.html">Notícias</a></li>
                         <li><a class="link" href="./infantil.html">Infantil</a></li>
-                        <li><a class="link" href="#">Fundamental I</a></li>
-                        <li><a class="link" href="#">Fundamental II</a></li>
+                        <li><a class="link" href="./fund_I.html">Fundamental I</a></li>
+                        <li><a class="link" href="./fund_II.html">Fundamental II</a></li>
                         <li><a class="link" href="./medio.html">Médio</a></li>
                     </ul>
                 </article>
@@ -195,7 +195,8 @@
                         <li><a class="link" href="#">Sobre nós</a></li>
                         <li><a class="link" href="#">Instituições Parceiras</a></li>
                         <li><a class="link" href="#">Blog</a></li>
-                        <li><a class="link" href="#">Contatos</a></li>
+                        <li><a class="link" href="#">Contato</a></li>
+                        <li><a class="link" href="./enviarMaterial.html">Divulgue aqui</a></li>
                         <a class="link mx-2" href="#"><i class="ri-twitter-fill" id="twitter"></i></a>
                         <a class="link mx-2" href="#"><i class="ri-facebook-circle-fill" id="facebook"></i></i></a>
                         <a class="link mx-2" href="#"><i class="ri-instagram-fill" id="instagram"></i></a>
