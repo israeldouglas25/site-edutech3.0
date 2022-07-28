@@ -24,14 +24,14 @@ a {
 }
 
 .navbar-toggler:focus {
-    box-shadow: inset 0 0 2em #ffffff;
+    box-shadow: 0 0 1em #ffffff;
 }
 
 .navbar-toggler-icon i {
     font-size: 1.8em;
 }
 
-/* ============================ */
+/* ============================== */
 .navbar-nav .nav-item .nav-link {
     display: flex;
     column-gap: 20px;
@@ -139,18 +139,6 @@ a {
     transition: 1s all;
 }
 
-.link {
-    color: #ffffff;
-    font-size: 1.2em;
-    list-style-type: none;
-    padding: 0;
-    transition: 1s all;
-}
-
-.link:hover {
-    color: #222b4d;
-}
-
 .text {
     border-bottom: 1px solid #646464;
     font-size: 1.1rem;
@@ -164,33 +152,73 @@ a {
     padding: 0 10px;
 }
 
-/* Style do footer */
+/* =========== Style do footer ========== */
 .bg-footer {
     background: #646464;
 }
 
-/* =============== */
+.bi {
+    font-size: 1.5em;
+    padding: 0px 5px;
+}
 
-/* Estilo do endereço */
-#fonte {
+.section-footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    column-gap: 20px;
+}
+
+.section-footer-article {
+    width: 25%;
+}
+
+.section-footer-article ul h4 {
     color: #ffffff;
-    font-size: 13px;
+    padding-top: 20px;
+}
+
+.section-footer-article ul li {
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+.section-footer-article ul li a:hover {
+    color: #222b4d;
+    transition: 500ms all;
 }
 
 /* Cores para as redes sociais */
 #twitter:hover {
     color: #00ACEE;
-    transition: 1s all;
+    transition: 500ms all;
 }
 
 #facebook:hover {
-    color: #1877f2;
-    transition: 1s all;
+    color: #1059b9;
+    transition: 500ms all;
 }
 
 #instagram:hover {
     color: #fb5709;
-    transition: 1s all;
+    transition: 500ms all;
+}
+
+#youtube:hover {
+    color: #ff0000;
+    transition: 500ms all;
+}
+
+#linkedin:hover {
+    color: #0e76a8;
+    transition: 500ms all;
+}
+
+/* ===================================== */
+
+/* Estilo do endereço */
+#fonte {
+    color: #ffffff;
+    font-size: 13px;
 }
 
 @media screen and (max-width: 764px) {
@@ -203,6 +231,16 @@ a {
         margin-top: 0px;
     }
 
+    .section-footer {
+        align-items: center;
+        display: block;
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .section-footer-article {
+        width: 100%;
+    }
 
 }
 
