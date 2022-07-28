@@ -3,31 +3,70 @@ a {
     text-decoration: none;
 }
 
-.botao {
-    background: #5c6589;
+/* ============ Style navbar ============ */
+.active_nav {
+    background-color: #222b4d;
+    transition: 500ms all;
+}
+
+.active_nav .botao {
+    border: 2px solid #ffffff;
+}
+
+/* Ajuste do botao do hamburgue */
+
+.active_nav .navbar-toggler {
+    border: 2px solid #ffffff;
+}
+
+.navbar-toggler {
+    box-shadow: inset 0 0 2em #ffffff;
+}
+
+.navbar-toggler:focus {
+    box-shadow: inset 0 0 2em #ffffff;
+}
+
+.navbar-toggler-icon i {
+    font-size: 1.8em;
+}
+
+/* ============================ */
+.navbar-nav .nav-item .nav-link {
+    display: flex;
+    column-gap: 20px;
+    font-size: 1.3em;
     color: #ffffff;
-    font-size: 1.1rem;
-    min-height: 40px;
+}
+
+.nav-item .nav-link:hover {
+    font-size: 1.4em;
+    transition: 1s all;
+}
+
+/* ======================================= */
+
+.banner {
+    width: 100%;
+    height: 80vh;
+}
+
+.botao {
+    background: #222b4d;
+    color: #ffffff;
+    font-size: 1em;
+    min-height: 30px;
     padding: 6px 20px;
 }
 
 .botao:hover {
-    background: #222b4d;
+    background: #5c6589;
     color: #ffffff;
     transition: 1s all;
 }
 
 .border-color:hover {
     border: 1.5px solid #222b4d;
-}
-
-.bg-menu {
-    background: #222b4d;
-    font-size: 1.3rem;
-}
-
-.bg-footer {
-    background: #646464;
 }
 
 .caixa {
@@ -42,9 +81,21 @@ a {
     padding: 30px 50px;
 }
 
+.fonte-titulo {
+    color: #222b4d;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+    text-shadow: #5c6589 0.1rem 0.2rem 0.1rem;
+}
+
+.facebook .google {
+    height: 40px;
+}
+
 .login-conta {
     margin: 30px auto 30px;
 }
+
 .login-facebook {
     align-items: center;
     background-color: #1877f2;
@@ -88,13 +139,9 @@ a {
     transition: 1s all;
 }
 
-.facebook, .google {
-    height: 40px;
-}
-
 .link {
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     list-style-type: none;
     padding: 0;
     transition: 1s all;
@@ -102,13 +149,6 @@ a {
 
 .link:hover {
     color: #222b4d;
-}
-
-.fonte-titulo {
-    color: #222b4d;
-    font-family: 'Pacifico', cursive;
-    font-size: 2.5rem;
-    text-shadow: #5c6589 0.1rem 0.2rem 0.1rem;
 }
 
 .text {
@@ -124,11 +164,19 @@ a {
     padding: 0 10px;
 }
 
+/* Style do footer */
+.bg-footer {
+    background: #646464;
+}
+
+/* =============== */
+
 /* Estilo do endereço */
 #fonte {
     color: #ffffff;
     font-size: 13px;
 }
+
 /* Cores para as redes sociais */
 #twitter:hover {
     color: #00ACEE;
@@ -157,6 +205,7 @@ a {
 
 
 }
+
 /* ============================ */
 
 /* Paleta de cores
