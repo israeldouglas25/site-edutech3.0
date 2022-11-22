@@ -50,7 +50,7 @@ Este projeto foi elaborado pela Squad 25 para conclusão do Programa Recode Pro 
 <ul>
     <li><b>Status: </b>em progresso.</li>   
     <li><b>Tecnologias: </b>Java, Spring, C#.</li>
-    <li><b>Observações: Foi utilizada a linguagem Java (Estrutura de dados Classes) para o padrão de projeto MVC (implementado o CRUD para as tabelas do modelo de dados). Usamos o Framework Spring para refatoração da versão anterior e atual do projeto. Foi utilizada a linguagem C# para Api no Dot Net.</b></li>
+    <li><b>Observações: </b> Foi utilizada a linguagem Java (Estrutura de dados Classes) para o padrão de projeto MVC (implementado o CRUD para as tabelas do modelo de dados). Usamos o Framework Spring para refatoração da versão anterior e atual do projeto. Foi utilizada a linguagem C# para Api no Dot Net. </li>
 </ul>
 <h3>Base de dados</h3>
 <ul>
