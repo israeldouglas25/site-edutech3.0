@@ -13,6 +13,15 @@
 
 :small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação)
 
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Edutech 3.0**
+| :label: Tecnologias | java, html, MySQL, SpringBoot
+| :rocket: URL         | https://github.com/israeldouglas25/site-edutech3.0
+| :fire: Desafio     | https://trello.com/b/eGibKJHv/edutech30
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://github.com/israeldouglas25/site-edutech3.0/blob/main/EduTech3.0-logo.png#vitrinedev)
 
 ## Descrição do projeto 
 
@@ -57,23 +66,20 @@ Este projeto foi elaborado pela Squad 25 para conclusão do Programa Recode Pro 
     <li><b>Status: </b>em progresso.</li>
     <li><b>Tecnologias: </b>MySQL e BrModelo.</li>
 </ul>
-```
 
 ## Desenvolvedores: SQUAD 25 :octocat:
 
-[<img src="https://github.com/anafontessp.png" width=115><br><sub>Ana Fontes</sub>](https://github.com/anafontessp)   <br> 
-[<img src="https://github.com/MandaSoares.png" width=115><br><sub>Amanda Soares</sub>](https://github.com/MandaSoares) <br> 
-[<img src="https://github.com/tesouzas.png" width=115><br><sub>Stephanie Souza</sub>](https://github.com/tesouzas)  <br> 
-[<img src="https://github.com/israeldouglas25.png" width=115><br><sub>Israel Douglas</sub>](https://github.com/israeldouglas25)
+| [<img src="https://github.com/anafontessp.png" width=115><br><sub>Ana Fontes</sub>](https://github.com/anafontessp) | [<img src="https://github.com/MandaSoares.png" width=115><br><sub>Amanda Soares</sub>](https://github.com/MandaSoares) | [<img src="https://github.com/tesouzas.png" width=115><br><sub>Stephanie Souza</sub>](https://github.com/tesouzas) | [<img src="https://github.com/israeldouglas25.png" width=115><br><sub>Israel Douglas</sub>](https://github.com/israeldouglas25) |
+| :---: | :---: | :---: | :---: |
 
 
 
-<h2>Curso:</h2> Programador Web FullStack - Recode Pro 2022;
+<h2>Curso</h2> Programador Web FullStack - Recode Pro 2022;
 
-<h2>Professores:</h2> Flávio Mota, Gizelle Marques, Mariana Oliveira e Nathally Souza; <br>
+<h2>Professores</h2> Flávio Mota, Gizelle Marques, Mariana Oliveira e Nathally Souza; <br>
 
 <p align="justify">
-<h2>Agradecimentos:</h2> O projeto Edutech3.0 foi elaborado graças a toda infraestrutura desse programa de formação, ao conhecimento, instruções e dedicação dos professores e monitores do Recode Pro 2022. Aos nossos familiares que nos apoiaram durante toda essa jornada de aprendizado, amigos e colegas. </p>
+<h2>Agradecimentos</h2> O projeto Edutech3.0 foi elaborado graças a toda infraestrutura desse programa de formação, ao conhecimento, instruções e dedicação dos professores e monitores do Recode Pro 2022. Aos nossos familiares que nos apoiaram durante toda essa jornada de aprendizado, amigos e colegas. </p>
 
 ## Licença 
 
